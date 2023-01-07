@@ -19,11 +19,11 @@ const AddPost: React.FC<Props> = ({ savePost }) => {
     <form className='Form' onSubmit={(e) => savePost(e, formData)}>
       <div>
         <div className='Form--field'>
-          <label htmlFor='name'>Title</label>
+          <label htmlFor='name'>PostTitle</label>
           <input onChange={handleForm} type='text' id='title' />
         </div>
         <div className='Form--field'>
-          <label htmlFor='body'>Description</label>
+          <label htmlFor='body'>PostDescription</label>
           <input onChange={handleForm} type='text' id='body' />
         </div>
       </div>

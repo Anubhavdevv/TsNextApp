@@ -31,7 +31,7 @@ export default function IndexPage({
 
   return (
     <main className='container'>
-      <h1>My posts</h1>
+      <h1>Random Posts</h1>
       <AddPost savePost={addPost} />
       {postList.map((post: IPost) => (
         <Post key={post.id} deletePost={deletePost} post={post} />
