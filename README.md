@@ -9,4 +9,5 @@ A dashboard for managing and organizing articles, including the ability to creat
 
 A preview mode for viewing articles as they will appear when published.
 
-A responsive design for viewing on different devices, including phones and tablets.
+A responsive design for viewing on different devices.
+
